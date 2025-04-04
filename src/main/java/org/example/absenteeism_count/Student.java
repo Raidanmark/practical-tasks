@@ -1,11 +1,8 @@
 package org.example.absenteeism_count;
 
 import lombok.AccessLevel;
-import lombok.Data;
-import lombok.Getter;
 import lombok.experimental.FieldDefaults;
 
-@Data
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class Student extends StudyGroup {
     String name;
